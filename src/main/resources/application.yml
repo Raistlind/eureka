@@ -8,6 +8,7 @@ eureka:
 spring:
   application:
     name: eureka
-server:
-  port: 8761
-
+management:
+  context-path: /
+#server:
+#  port: 8761
